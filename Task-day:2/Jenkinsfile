@@ -19,7 +19,7 @@ pipeline {
         stage('Test') {
             steps {
                 // Simple test to check if the app is responding
-                sh 'sleep 5'  // give container some time to start
+                sh 'sleep 15'  // give container some time to start
                 sh 'curl -f http://localhost:5000 || (echo "App test failed" && exit 1)'
             }
         }
