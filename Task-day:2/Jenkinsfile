@@ -25,10 +25,11 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            // Clean up container after pipeline finishes
-            sh 'sudo docker rm -f python_app || true'
-        }
-    }
-}
+//     post {
+//         always {
+//             // Clean up container after pipeline finishes
+//             sh 'sudo docker rm -f python_app || true'
+//         }
+//     }
+// }
+
