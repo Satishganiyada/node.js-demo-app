@@ -10,6 +10,9 @@
 
 ### Create Deployment.yaml and Service.yaml files
 
+### Pull image to minikube
+## minikube image load <imagename>
+
 ### Run the commands
 ## kubectl apply -f deployment.yaml
 ## kubectl apply -f service.yaml
@@ -19,6 +22,7 @@
 
 ### Scale the Deployment
 ## kubectl scale deployment myapp-deployment --replicas=4
+
 
 
 
